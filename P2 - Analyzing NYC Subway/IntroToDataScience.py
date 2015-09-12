@@ -26,6 +26,7 @@ def main(filename):
     predicts = predictions(df)
     print type(predicts)
 
+    # Test Comment
     print type(df)
     r2 = Lesson3_Calculating_RSquared(df['ENTRIESn_hourly'].values, predicts)
 
